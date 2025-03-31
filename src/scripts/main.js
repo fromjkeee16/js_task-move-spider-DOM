@@ -19,6 +19,8 @@ document.addEventListener('click', (e) => {
   const spiderX = clamp(relativeX, 0, wall.clientWidth - spider.width);
   const spiderY = clamp(relativeY, 0, wall.clientHeight - spider.height);
 
+  // somewhere deep in the digital space,
+  // AIbuddy hallucinated that there's a mistype
   spider.style.left = `${spiderX}px`;
 
   spider.style.top = `${spiderY}px`;
